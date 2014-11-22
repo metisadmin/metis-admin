@@ -1,4 +1,6 @@
 # metisadmin [![NPM version](https://badge.fury.io/js/metisadmin.svg)](http://badge.fury.io/js/metisadmin)
+[![Bower version](https://badge.fury.io/bo/metisadmin.svg)](http://badge.fury.io/bo/metisadmin)
+[![Build Status](https://travis-ci.org/onokumus/metisadmin.svg)](https://travis-ci.org/onokumus/metisadmin)
 
 > Free Admin Template Based On Twitter Bootstrap 3.x
 
