@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "homepage": "https://github.com/onokumus/metisadmin",
   "authors": [
-    "Osman Nuri Okumus <onokumus@gmail.com>"
+    "onokumus <onokumus@gmail.com>"
   ],
   "description": "Free Admin Template Based On Twitter Bootstrap 3.x",
   "main": [
     "dist/css/metisadmin.css",
-    "dist/js/metisadmin.js",
+    "dist/js/metisadmin.js"
   ],
   "moduleType": [
     "node"

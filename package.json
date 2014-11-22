@@ -4,7 +4,7 @@
   "description": "Free Admin Template Based On Twitter Bootstrap 3.x",
   "main": "./dist/metisadmin.js",
   "scripts": {
-    "test": "grunt trravis --verbose"
+    "test": "grunt travis --verbose"
   },
   "repository": {
     "type": "git",
