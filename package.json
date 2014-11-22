@@ -1,0 +1,50 @@
+{
+  "name": "metisadmin",
+  "version": "0.0.1",
+  "description": "Free Admin Template Based On Twitter Bootstrap 3.x",
+  "main": "./dist/metisadmin.js",
+  "scripts": {
+    "test": "grunt trravis --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onokumus/metisadmin"
+  },
+  "keywords": [
+    "twbs",
+    "grunt",
+    "less",
+    "admin",
+    "template"
+  ],
+  "author": {
+    "name": "Osman Nuri Okumus",
+    "email": "onokumus@gmail.com",
+    "url": "http://onokumus.com/"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/onokumus/metisadmin/blob/master/LICENSE.md"
+  },
+  "bugs": {
+    "url": "https://github.com/onokumus/metisadmin/issues"
+  },
+  "homepage": "https://github.com/onokumus/metisadmin",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^2.0.0",
+    "grunt-banner": "^0.2.3",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-csslint": "^0.3.1",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-csscomb": "^3.0.0",
+    "grunt-jscs": "^0.8.1",
+    "time-grunt": "^1.0.0",
+    "verb": "^0.3.6"
+  }
+}
