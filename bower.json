@@ -1,0 +1,34 @@
+{
+  "name": "metisadmin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/onokumus/metisadmin",
+  "authors": [
+    "Osman Nuri Okumus <onokumus@gmail.com>"
+  ],
+  "description": "Free Admin Template Based On Twitter Bootstrap 3.x",
+  "main": [
+    "dist/css/metisadmin.css",
+    "dist/js/metisadmin.js",
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "twbs",
+    "grunt",
+    "less",
+    "admin",
+    "template"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
