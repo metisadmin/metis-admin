@@ -2,56 +2,55 @@
 /*                 Template Layout                       */
 /*********************************************************/
 
-
-#wrap,
-#top,
-.head,
+.Wrap,
+.Top,
+.Head,
 .Footer {
   .clearfix();
-}
 
-.Wrap, #wrap {
+}
+.Wrap {
   margin: 0 auto;
   position: relative;
-}
 
-#left,
-#right {
-  .transition(all .3s ease-in-out);
+}
+.SideBar--left,
+.SideBar--right {
+  transition: all 0.3s ease-in-out;
   width: @SidebarWidth;
   z-index: 999;
-}
 
-#left {
+}
+.SideBar--left {
   position: absolute;
   left: -@SidebarWidth;
-}
 
-#right {
+}
+.SideBar--right {
   position: fixed;
   top: 0;
   bottom: 0;
   overflow-y: auto;
   right: -@SidebarWidth;
-}
 
-.sidebar-left-opened #left {
+}
+.sidebar-left-opened .SideBar--left {
   left: 0;
-}
 
+}
 .sidebar-right-opened {
   position: relative;
   right: @SidebarWidth;
-  #right {
+  .SideBar--right {
     right: 0;
   }
   &.fixed .navbar-fixed-top {
     right: @SidebarWidth;
   }
-}
 
-@media (min-width: @screen-sm-min) {
-  #left {
+}
+@media (min-width: 768px) {
+  .SideBar--left {
     position: relative;
     float: left;
     left: auto;
@@ -63,34 +62,38 @@
     .sidebar-left-mini & {
       width: @miniSidebarWidth;
     }
-  }
 
-  #content {
-    .transition(all .3s ease-in-out);
-    .text-overflow();
   }
+  .Content {
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
+  }
   .sidebar-right-opened {
-       right: 0;
-       margin-right: @SidebarWidth;
+    right: 0;
+    margin-right: @SidebarWidth;
     .navbar-fixed-top {
-       margin-right: @SidebarWidth;
+      margin-right: @SidebarWidth;
     }
   }
-}
 
-@media (min-width: @screen-lg-min) {
-  body.boxed {
+}
+@media (min-width: 1200px) {
+  .Body--boxed {
     margin-bottom: 0;
-    .Wrap, #wrap, .Footer, #top .navbar.navbar-fixed-top {
+    .Wrap,
+    .Footer,
+    .Top .navbar.navbar-fixed-top {
       max-width: 1170px;
       margin-left: auto;
       margin-right: auto;
     }
-    .Footer, #footer {
+    .Footer {
       position: relative;
     }
   }
-}
 
+}
 /* ================== END Template Layout ============== */

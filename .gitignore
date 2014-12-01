@@ -45,6 +45,7 @@ validation-report.json
 node_modules
 bower_components
 vendor
+less_yedek
 
 # General folders and files to ignore
 _gh_pages

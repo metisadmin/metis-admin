@@ -2,7 +2,7 @@
   'use strict';
 
   var $navBar = $('nav.navbar');
-  var$body = $('body');
+  var $body = $('body');
   var $menu = $('#menu');
 
 

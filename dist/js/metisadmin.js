@@ -1,6 +1,6 @@
 /*!
  * Metis Admin v0.0.1 (https://github.com/onokumus/metisadmin)
- * Copyright 2013-2014 onokumus
+ * Copyright 2013-2014 Osman Nuri Okumus
  * Licensed under MIT (https://github.com/onokumus/metisadmin/blob/master/LICENSE.md)
  */
 ;(function (window) {
@@ -30,7 +30,7 @@
   'use strict';
 
   var $navBar = $('nav.navbar');
-  var$body = $('body');
+  var $body = $('body');
   var $menu = $('#menu');
 
 

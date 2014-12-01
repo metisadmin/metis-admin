@@ -45,6 +45,6 @@
     "grunt-csscomb": "^3.0.0",
     "grunt-jscs": "^0.8.1",
     "time-grunt": "^1.0.0",
-    "verb": "^0.3.6"
+    "verb": "^0.3.7"
   }
 }

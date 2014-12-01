@@ -1,28 +1,10 @@
 /*!
  * Metis Admin v0.0.1 (https://github.com/onokumus/metisadmin)
- * Copyright 2013-2014 onokumus
+ * Copyright 2013-2014 Osman Nuri Okumus
  * Licensed under MIT (https://github.com/onokumus/metisadmin/blob/master/LICENSE.md)
  */
 
-body.boxed {
+.Body--boxed {
   background: url("../img/pattern/arches.png") repeat;
-}
-#top > .navbar {
-  border-top: 3px solid #428bca;
-}
-#top > .navbar .dropdown-menu > li > a:hover,
-#top > .navbar .dropdown-menu > li > a:focus {
-  color: #fff;
-  background-color: #428bca;
-}
-#menu {
-  background-color: #428bca !important;
-}
-#menu > li > a {
-  color: #fff;
-  text-shadow: none !important;
-}
-.sidebar-left-mini #menu > li > a > .link-title {
-  background-color: #3681c1 !important;
 }
 /*# sourceMappingURL=metisadmin-theme.css.map */

@@ -198,8 +198,8 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask("travis", ["jshint"]);
-  
+  grunt.registerTask('travis', ['jshint']);
+
   grunt.registerTask('dist-css', [
     'less',
     'autoprefixer',
