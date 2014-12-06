@@ -1,0 +1,116 @@
+/*!
+ * Metis Admin v0.0.4 (https://github.com/onokumus/metisadmin)
+ * Copyright 2013-2014 Osman Nuri Okumus
+ * Licensed under MIT (https://github.com/onokumus/metisadmin/blob/master/LICENSE.md)
+ */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+  font-weight: 300;
+}
+.Wrap,
+.Header,
+.Sidebar,
+.Content,
+.Footer {
+  -webkit-transition: all .3s ease-out;
+       -o-transition: all .3s ease-out;
+          transition: all .3s ease-out;
+}
+.Wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+.Header {
+  position: relative;
+  min-height: 50px;
+}
+.Header:before,
+.Header:after {
+  display: table;
+  content: " ";
+}
+.Header:after {
+  clear: both;
+}
+.Sidebar {
+  width: 250px;
+}
+.Sidebar--left:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: inherit;
+  content: "";
+  background: #444;
+  border: inherit;
+}
+.Sidebar--left.is-collapsed {
+  position: absolute;
+  left: -250px;
+}
+.Content {
+  height: 100%;
+}
+.Content:before,
+.Content:after {
+  display: table;
+  content: " ";
+}
+.Content:after {
+  clear: both;
+}
+.Footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background: #fefcfd;
+}
+@media (min-width: 992px) {
+  .Wrap {
+    float: left;
+  }
+  .Sidebar--left {
+    float: left;
+  }
+  .Content {
+    display: block;
+    width: auto;
+    overflow: hidden;
+  }
+  .Sidebar--left:not(.is-collapsed) ~ .Content,
+  .Sidebar--left:not(.is-collapsed) ~ .Footer {
+    margin-left: 250px;
+  }
+}
+/* BEGIN TOP bar */
+.Top .navbar {
+  margin-bottom: 0;
+  border-top: 3px solid #cd0067;
+}
+.Top .navbar-brand {
+  padding: 0;
+}
+.Top .Top-nav {
+  margin: 10px 0;
+  text-align: right;
+}
+@media (min-width: 768px) {
+  .Top .Top-nav {
+    float: right;
+  }
+}
+/* END TOP bar */
+/*# sourceMappingURL=metisadmin.css.map */

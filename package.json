@@ -1,6 +1,6 @@
 {
   "name": "metisadmin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Free Admin Template Based On Twitter Bootstrap 3.x",
   "main": "./dist/metisadmin.js",
   "scripts": {
