@@ -216,5 +216,5 @@ module.exports = function (grunt) {
     'uglify'
   ]);
 
-  grunt.registerTask('default', ['clean', 'dist-css', 'dist-js']);
+  grunt.registerTask('default', ['dist-css', 'dist-js']);
 };

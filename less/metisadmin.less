@@ -1,6 +1,14 @@
-@import "main/variable";
-@import "main/general/base";
-@import "main/layout/sticky";
-@import "main/layout/layout";
-@import "main/general/top";
-@import "main/general/head";
+.cf() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@import "base";
+@import "layout";
+@import "top";

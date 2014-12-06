@@ -46,6 +46,7 @@ node_modules
 bower_components
 vendor
 less_yedek
+less_backup_kasim_2014
 
 # General folders and files to ignore
 _gh_pages

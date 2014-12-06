@@ -1,0 +1,79 @@
+.Wrap,
+.Header,
+.Sidebar,
+.Content,
+.Footer {
+  transition: all .3s ease-out;
+}
+.Wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+.Header {
+  position: relative;
+  min-height: 50px;
+  .cf;
+}
+
+.Sidebar {
+  width: 250px;
+}
+
+.Sidebar--left:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: inherit;
+  background: #444;
+  border: inherit;
+  content: "";
+}
+.Sidebar--left {
+
+  &.is-collapsed {
+    left: -250px;
+    position: absolute;
+  }
+}
+
+
+
+
+.Content {
+  height: 100%;
+  .cf;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fefcfd;
+  height: 50px;
+}
+
+
+@media (min-width: 992px) {
+  .Wrap {
+    float: left;
+  }
+  .Sidebar--left {
+    float: left;
+  }
+  .Content {
+    display: block;
+    overflow: hidden;
+    width: auto;
+  }
+  .Sidebar--left:not(.is-collapsed) ~& {
+    .Content,
+    .Footer {
+      margin-left: 250px;
+    }
+  }
+}
