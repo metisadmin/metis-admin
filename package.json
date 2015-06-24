@@ -1,50 +1,33 @@
 {
-  "name": "metisadmin",
-  "version": "0.0.4",
-  "description": "Free Admin Template Based On Twitter Bootstrap 3.x",
-  "main": "./dist/metisadmin.js",
+  "name": "metis-admin",
+  "version": "0.0.5",
+  "description": "basic admin template",
+  "main": "./dist/metis-admin.js",
   "scripts": {
-    "test": "grunt travis --verbose"
+    "test": "broccoli serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onokumus/metisadmin"
+    "url": "https://github.com/metisadmin/metis-admin"
   },
   "keywords": [
-    "twbs",
-    "grunt",
     "less",
     "admin",
     "template"
   ],
-  "author": {
-    "name": "Osman Nuri Okumus",
-    "email": "onokumus@gmail.com",
-    "url": "http://onokumus.com/"
-  },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/onokumus/metisadmin/blob/master/LICENSE.md"
-  },
+  "author": "Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/onokumus/metisadmin/issues"
+    "url": "https://github.com/metisadmin/metis-admin/issues"
   },
-  "homepage": "https://github.com/onokumus/metisadmin",
+  "homepage": "https://github.com/metisadmin/metis-admin",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-autoprefixer": "^2.0.0",
-    "grunt-banner": "^0.2.3",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-csslint": "^0.3.1",
-    "grunt-contrib-cssmin": "^0.10.0",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-less": "^0.12.0",
-    "grunt-contrib-uglify": "^0.6.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-csscomb": "^3.0.0",
-    "grunt-jscs": "^0.8.1",
-    "time-grunt": "^1.0.0",
-    "verb": "^0.3.7"
+    "broccoli": "^0.16.3",
+    "broccoli-concat": "0.0.13",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-less-single": "^0.4.0",
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-uglify-js": "^0.1.3",
+    "less-plugin-autoprefix": "^1.4.2"
   }
 }

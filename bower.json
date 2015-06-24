@@ -1,21 +1,19 @@
 {
-  "name": "metisadmin",
-  "version": "0.0.4",
-  "homepage": "https://github.com/onokumus/metisadmin",
+  "name": "metis-admin",
+  "version": "0.0.5",
+  "homepage": "https://github.com/metisadmin/metis-admin",
   "authors": [
-    "onokumus <onokumus@gmail.com>"
+    "Osman Nuri Okumuş <onokumus@gmail.com>"
   ],
-  "description": "Free Admin Template Based On Twitter Bootstrap 3.x",
+  "description": "basic admin template",
   "main": [
-    "dist/css/metisadmin.css",
-    "dist/js/metisadmin.js"
+    "dist/metis-admin.css",
+    "dist/metis-admin.js"
   ],
   "moduleType": [
     "node"
   ],
   "keywords": [
-    "twbs",
-    "grunt",
     "less",
     "admin",
     "template"
@@ -26,9 +24,12 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "app",
+    "public",
+    "tmp"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.1"
+    "metis-panel": "~0.0.1"
   }
 }
