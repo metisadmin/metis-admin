@@ -21,13 +21,5 @@
     "url": "https://github.com/metisadmin/metis-admin/issues"
   },
   "homepage": "https://github.com/metisadmin/metis-admin",
-  "devDependencies": {
-    "broccoli": "^0.16.3",
-    "broccoli-concat": "0.0.13",
-    "broccoli-funnel": "^0.2.3",
-    "broccoli-less-single": "^0.4.0",
-    "broccoli-merge-trees": "^0.2.1",
-    "broccoli-uglify-js": "^0.1.3",
-    "less-plugin-autoprefix": "^1.4.2"
-  }
+  "devDependencies": {}
 }
